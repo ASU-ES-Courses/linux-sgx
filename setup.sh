@@ -8,3 +8,4 @@ sudo apt-get install build-essential python
 ./linux/installer/bin/sgx_linux_x64_sdk_2.1.3.44322.bin
 source /home/eugene/SGX/linux-sgx/sgxsdk/environment
 sudo ./linux/installer/bin/sgx_linux_x64_psw_2.1.3.44322.bin
+chmod +x uninstall.sh
