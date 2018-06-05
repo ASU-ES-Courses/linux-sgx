@@ -1,0 +1,8 @@
+enclave {
+    include "sgx_eid.h"
+    from "../LocalAttestationCode/LocalAttestationCode.edl" import *;
+    from "sgx_tstdc.edl" import *;
+    trusted{
+            public uint32_t Enclave2_function(void);
+    };
+};
