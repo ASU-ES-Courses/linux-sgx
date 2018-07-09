@@ -237,8 +237,7 @@ int SGX_CDECL main(int argc, char *argv[])
 
     /* Initialize the enclave */
     if(initialize_enclave() < 0){
-        printf("Enter a character before exit ...\n");
-        getchar();
+        printf("ERRORS!! DONE EXECUTING WITH ERRORS!! ...\n");
         return -1; 
     }
  
@@ -258,8 +257,7 @@ int SGX_CDECL main(int argc, char *argv[])
     
     printf("Info: SampleEnclave successfully returned.\n");
 
-    printf("Enter a character before exit ...\n");
-    getchar();
+    printf("DONE EXECUTING!!! ...\n");
     return 0;
 }
 
